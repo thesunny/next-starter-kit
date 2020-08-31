@@ -2,8 +2,8 @@
   "private": true,
   "license": "Copyright MeZine Inc. 2019",
   "engines": {
-    "node": "10.16.3",
-    "yarn": "1.17.3",
+    "node": "12.16.2",
+    "yarn": "1.22.4",
     "npm": "6.9.0"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
     "fs-extra": "^8.1.0",
     "jsome": "^2.5.0",
     "kind-of": "^6.0.2",
+    "lodash": "^4.17.20",
     "next": "9.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
