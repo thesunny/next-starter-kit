@@ -2,7 +2,7 @@ import styled from "@emotion/styled"
 
 const Container = styled.div`
   margin: 1em;
-  max-width: 32em; ;
+  max-width: 32em;
 `
 const Title = styled.h1``
 
