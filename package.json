@@ -35,7 +35,7 @@
     "typescript": "^3.7.4"
   },
   "scripts": {
-    "dev": "next",
+    "start:dev": "next",
     "test": "jest --watch"
   }
 }
