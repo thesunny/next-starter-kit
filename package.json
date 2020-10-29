@@ -35,7 +35,9 @@
     "typescript": "^3.7.4"
   },
   "scripts": {
+    "open:mailhog": "open http://localhost:8025/",
     "start:dev": "next",
+    "start:mailhog": "mailhog",
     "test": "jest --watch"
   }
 }
