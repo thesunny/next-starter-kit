@@ -36,6 +36,7 @@
   },
   "scripts": {
     "open:mailhog": "open http://localhost:8025/",
+    "pull:kit": "git pull git@github.com:thesunny/next-starter-kit",
     "start:dev": "next",
     "start:mailhog": "mailhog",
     "test": "jest --watch"
