@@ -6,7 +6,7 @@
 
 ```sh
 yarn add next-auth
-yarn add @types/next-auth
+yarn add @types/next-auth --dev
 ```
 
 ### Setup Environment Variables
