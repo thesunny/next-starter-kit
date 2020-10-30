@@ -2,6 +2,13 @@
 
 ## Getting Started
 
+### Add Packages
+
+```sh
+yarn add next-auth
+yarn add @types/next-auth
+```
+
 ### Setup Environment Variables
 
 Copy `.env.development` from the `next-auth-demo` project into your project or add it to `.env.development` if it already exists.
