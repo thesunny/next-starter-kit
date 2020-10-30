@@ -2,6 +2,10 @@
 
 ## Getting Started
 
+## Setup Database
+
+First setup your database using instructions from `readme/database.md`
+
 ### Add Packages
 
 ```sh
