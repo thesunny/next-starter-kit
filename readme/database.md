@@ -52,3 +52,12 @@ yarn add pg
 yarn add @prisma/client
 yarn add @prisma/cli --dev
 ```
+
+## Configure Prisma
+
+<https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch-sql-typescript-postgres>
+
+- Copy the files under `readme/init/prisma` into `prisma` in the root directory.
+- Update `.env` to point the `DATABASE_URL` to the correct port
+
+If you have an existing database schema (e.g. you already executed the CREATE TABLE commands from `next-auth`) then run `npx prisma introspect` on the command line.

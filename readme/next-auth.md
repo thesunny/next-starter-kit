@@ -116,3 +116,11 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
   }
 }
 ```
+
+## Create Tables
+
+Create the tables using DataGrip by executing these SQL commands one by one from this page: <https://next-auth.js.org/schemas/postgres>
+
+## Generate Prisma Schema
+
+This could be a good time to generate prisma schemas
