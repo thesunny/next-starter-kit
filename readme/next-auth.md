@@ -9,6 +9,7 @@ Copy `.env.development` from the `next-auth-demo` project into your project or a
 ### Create this file to setup an API endpoint for authentication
 
 ```ts
+// pages/api/auth/[...nexauth].ts
 import NextAuth, { InitOptions, User } from "next-auth"
 import { SessionBase } from "next-auth/_utils"
 import Providers from "next-auth/providers"
