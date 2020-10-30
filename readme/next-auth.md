@@ -13,6 +13,13 @@ yarn add @types/next-auth --dev
 
 Copy `.env.development` from the `next-auth-demo` project into your project or add it to `.env.development` if it already exists.
 
+Change the `DATABASE_URL` to point to the port you specified when setting up your database in `readme/database.md` which you will find at `config/postgres/docker-compose.yaml`
+
+```sh
+# Change `xxxx` to the port you specified
+DATABASE_URL=postgres://postgres:my-password@127.0.0.1:xxxx/postgres
+```
+
 ### Create this file to setup an API endpoint for authentication
 
 ```ts
