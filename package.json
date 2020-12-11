@@ -35,6 +35,9 @@
     "typescript": "^3.7.4"
   },
   "scripts": {
+    "# heroku": "# heroku entry points for build and start",
+    "build": "next build",
+    "start": "next start -p $PORT",
     "open:mailhog": "open http://localhost:8025/",
     "pull:kit": "git pull git@github.com:thesunny/next-starter-kit",
     "start:dev": "next",
