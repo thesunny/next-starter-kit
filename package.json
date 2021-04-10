@@ -8,7 +8,6 @@
   "dependencies": {
     "@emotion/core": "^10.0.15",
     "@emotion/styled": "^10.0.15",
-    "@types/jest": "^24.0.24",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-source-maps": "^0.0.3",
     "chalk": "^2.4.2",
@@ -25,18 +24,18 @@
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.5.5",
     "@babel/node": "^7.6.1",
+    "@types/jest": "^26.0.22",
     "@types/node": "^13.7.4",
     "@types/react": "^16.9.22",
     "babel-plugin-root-import": "^6.4.1",
     "babel-watch": "^7.0.0",
-    "jest": "^24.9.0",
-    "ts-jest": "^24.2.0",
-    "typescript": "^3.7.4"
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.4"
   },
   "scripts": {
     "# heroku": "# heroku entry points for build and start",
     "build": "next build",
-    "start": "next start -p $PORT",
     "open:mailhog": "open http://localhost:8025/",
     "upgrade:kit": "git pull git@github.com:thesunny/next-starter-kit",
     "start:dev": "next",
