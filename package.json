@@ -1,10 +1,9 @@
 {
   "private": true,
-  "license": "Copyright MeZine Inc. 2019",
+  "license": "Copyright MeZine Inc. 2021",
   "engines": {
-    "node": "14.15.4",
-    "yarn": "1.22.4",
-    "npm": "6.9.0"
+    "node": "^14.15.4",
+    "yarn": "^1.22.4"
   },
   "dependencies": {
     "@emotion/core": "^10.0.15",
