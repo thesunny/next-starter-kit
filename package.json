@@ -39,7 +39,7 @@
     "upgrade:kit": "git pull git@github.com:thesunny/next-starter-kit",
     "start:dev": "next",
     "start:mailhog": "mailhog",
-    "test": "jest --watch",
+    "test": "NODE_ENV=production jest --watch",
     "--- helpers": "# yarn execution helpers",
     "ts": "babel-node --extensions=.ts"
   }
