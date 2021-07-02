@@ -8,14 +8,12 @@
   "dependencies": {
     "@emotion/core": "^10.1.1",
     "@emotion/styled": "^10.0.27",
-    "@zeit/next-css": "^1.0.1",
-    "@zeit/next-source-maps": "^0.0.3",
     "chalk": "^4.1.1",
     "classnames": "^2.3.1",
-    "fs-extra": "^9.1.0",
+    "fs-extra": "^10.0.0",
     "jsome": "^2.5.0",
     "lodash": "^4.17.21",
-    "next": "^10.1.3",
+    "next": "^11.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -30,7 +28,7 @@
     "babel-watch": "^7.0.0",
     "jest": "^26.6.3",
     "ts-jest": "^26.5.5",
-    "typescript": "^4.2.4"
+    "typescript": "^4.3.5"
   },
   "scripts": {
     "# heroku": "# heroku entry points for build and start",
