@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": { "/*": ["*"] },
+    "paths": { "~/*": ["*"] },
     "target": "esnext",
     "module": "esnext",
     "allowSyntheticDefaultImports": true

@@ -25,20 +25,25 @@
     "@types/node": "^13.7.4",
     "@types/react": "^16.9.22",
     "babel-plugin-root-import": "^6.6.0",
-    "babel-watch": "^7.0.0",
-    "jest": "^26.6.3",
-    "ts-jest": "^26.5.5",
+    "babel-watch": "^7.4.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
     "typescript": "^4.3.5"
   },
   "scripts": {
-    "# heroku": "# heroku entry points for build and start",
+    "--- heroku": "# heroku entry points for build",
     "build": "next build",
-    "open:mailhog": "open http://localhost:8025/",
+    "--- next starter kit": "#",
     "upgrade:kit": "git pull git@github.com:thesunny/next-starter-kit",
+    "--- start": "#",
     "start:dev": "next",
+    "--- mailhog": "#",
     "start:mailhog": "mailhog",
+    "open:mailhog": "open http://localhost:8025/",
+    "--- test": "#",
     "test": "NODE_ENV=production jest --watch",
-    "--- helpers": "# yarn execution helpers",
-    "ts": "babel-node --extensions=.ts"
+    "--- helpers": "# requires filename argument. Try 'scripts/sample.ts'",
+    "ts": "babel-node --extensions=.ts",
+    "ts:watch": "babel-watch --extensions=.ts"
   }
 }
