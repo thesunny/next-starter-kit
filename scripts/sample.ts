@@ -1,8 +1,6 @@
-// Need any `import` or `export` so that it is an isolatedModule or ts complains
-import fs from "fs"
+// Need `import` or `export` so it is an isolatedModule or ts complains
+export {}
 
 const name = "John Doe"
 
 console.log(`Hello ${name}`)
-
-throw new Error("WTF!")
