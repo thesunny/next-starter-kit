@@ -13,6 +13,9 @@ git pull git@github.com:thesunny/next-starter-kit.git
 ## How to update
 
 ```sh
-# re-pull next-starter-kit
+# just pull next-starter-kit
 git pull git@github.com:thesunny/next-starter-kit.git
+
+# or use
+yarn upgrade:kit
 ```
