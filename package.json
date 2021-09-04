@@ -3,7 +3,7 @@
   "private": true,
   "license": "Copyright MeZine Inc. 2021",
   "engines": {
-    "node": "^14.15.4",
+    "node": "^14.17.5",
     "yarn": "^1.22.4"
   },
   "dependencies": {
