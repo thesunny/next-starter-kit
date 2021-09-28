@@ -8,6 +8,9 @@ git init
 
 # pull next-starter-kit
 git pull https://github.com/thesunny/next-starter-kit.git
+
+# install dependencies
+yarn
 ```
 
 ## How to update
