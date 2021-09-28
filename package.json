@@ -35,7 +35,7 @@
     "--- heroku": "# heroku entry points for build",
     "build": "next build",
     "--- next starter kit": "#",
-    "upgrade:kit": "git pull git@github.com:thesunny/next-starter-kit",
+    "upgrade:kit": "git pull https://github.com/thesunny/next-starter-kit.git",
     "--- start": "#",
     "start:dev": "next",
     "--- mailhog": "#",

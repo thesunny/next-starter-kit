@@ -7,14 +7,14 @@
 git init
 
 # pull next-starter-kit
-git pull git@github.com:thesunny/next-starter-kit.git
+git pull https://github.com/thesunny/next-starter-kit.git
 ```
 
 ## How to update
 
 ```sh
 # just pull next-starter-kit
-git pull git@github.com:thesunny/next-starter-kit.git
+git pull https://github.com/thesunny/next-starter-kit.git
 
 # or use
 yarn upgrade:kit
